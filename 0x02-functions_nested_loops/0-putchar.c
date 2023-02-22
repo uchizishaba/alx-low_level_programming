@@ -1,8 +1,7 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * Main - Entry point
- * Description: writing a program that prints _putchar followed by a new line
+ * main - Entry point
  * Return: Always 0
  */
 
@@ -17,7 +16,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
-
 }
