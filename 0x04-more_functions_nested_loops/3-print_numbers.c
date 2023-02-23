@@ -2,10 +2,9 @@
 
 /**
  * print_numbers - prints 0123456789\n
- *
+ *@c: print numbers
  * Return: void
  */
-
 
 void print_numbers(void)
 {
