@@ -5,6 +5,7 @@
  *
  * Return: void.
  */
+
 void puts_half(char *str)
 {
 	int n, length, mid;
