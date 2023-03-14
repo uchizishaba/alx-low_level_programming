@@ -1,18 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point, prints the arguments plus the application name.
- * @argc: count.
- * @argv: string with the arguments.
+ * main - Entry point, Also print number of arguments starting a 0.
+ * @argc: count
+ * @argv: arguments string
  *
- * Return: Always 0.
+ * Return: INT count of arguments.
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-		printf("%s\n", argv[i]);
-
-	return (0);
+	printf("%d\n", argc - 1);
+	return (argc - 1);
 }
