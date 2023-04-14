@@ -23,7 +23,7 @@ int create_file(const char *filename, char *text_content)
 	if (!text_content)
 		text_content = "";
 
-	for ( nlet = 0; text_content[nlet]; nlet++)
+	for (nlet = 0; text_content[nlet]; nlet++)
 		;
 
 	rwr = write(fid, text_content, nlet);
