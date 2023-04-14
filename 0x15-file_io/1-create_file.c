@@ -7,7 +7,7 @@
  * Return: 1 if it works. -1 if it fails
  */
 int create_file(const char *filename, char *text_content)
-{	
+{
 	int rwx;
 	int fid;
 	int nletters;
